@@ -1,0 +1,19 @@
+body {
+    background-color: rgba(161, 160, 204, 0.438);
+}
+
+h1 {
+    color: rgb(255, 8, 0);
+}
+
+.small {
+    font-size: 50px;
+}
+
+.big {
+    font-size: 200px;
+}
+
+.pink {
+    color: blueviolet;
+}
