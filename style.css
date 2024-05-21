@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "poppins";
+    src: url(Poppins-Regular.ttf);
+}
+
 body {
     background-color: rgba(161, 160, 204, 0.438);
 }
@@ -16,4 +21,22 @@ h1 {
 
 .pink {
     color: blueviolet;
+}
+
+.poppins {
+    font-family: "poppins";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.button {
+    background-color: rgb(240, 135, 16);
+    color: blue;
+    border: none;
+    height: 50px;
+    width: 70px;
+    font-size: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    border-width: 1px;
 }
