@@ -3,3 +3,6 @@
     src: url('../fonts/Poppins-Regular.ttf');
 }
 
+body {
+    font-family: 'poppins';
+}
