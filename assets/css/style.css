@@ -16,20 +16,27 @@ p {
     margin: 0;
 }
 
+a {
+    border: 0px;
+    border-width: 0px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    text-decoration: underline;
+} 
+
 .menu-bar {
     width: 100vw;
     background-color: yellowgreen;
     position: fixed;
-    box-shadow: 0px 2px 10px rgb(155, 155, 154)
+    box-shadow: 0px 2px 10px rgb(155, 155, 154);
+    font-size: 50px;
+    padding-top: 10px;
 }
 
-.button {
-    border: 0px;
-    border-width: 0px;
-    background-color: rgba(0, 0, 0, 0);
-    cursor: pointer;
+.menu-element {
+    margin-left: 40px;
 }
-
-.button:hover {
-    text-decoration: underline;
-} 
